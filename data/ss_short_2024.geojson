@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Allenspark Fire House" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.103486174581917, 39.98950951995068]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Altona MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.16261791754555, 40.14448266991539]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Boulder HS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.272871176916468, 40.014115906401706]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Burlington ES" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.094554830316, 40.156767194687617]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Casey MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.279157947039408, 40.022871175935698]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Centaurus HS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.11252766406545, 39.98635981263706]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Centennial MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.267147229083363, 40.045067962640239]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Eldorado K-8" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.161175742270672, 39.921739376834331]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Erie MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.052968825806872, 40.051017076484385]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Frasier Mead." },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.23388157416781, 39.994563965901541]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Longs Peak MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.117518880355988, 40.183991957217742]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Lyons MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.268124265484289, 40.225751346502918]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Manhattan MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.227357217525267, 39.994103425303791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Monarch K-8" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.143510405117368, 39.951425990709048]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Nederland HS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.523342112625301, 39.953838493833025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Niwot HS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.14424146529758, 40.10369506217272]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Southern Hills MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.24522605309456, 39.97413389369987]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Trail Ridge MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.057616226863829, 40.176931177836657]
+      }
+    }
+  ]
+}

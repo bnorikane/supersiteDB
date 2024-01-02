@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Angevine MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.103357427884561, 39.989558839688549]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Indian Peaks ES" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.118010493891987, 40.143271873438337]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Silver Creek HS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.166569993084721, 40.151371607549947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Sunset MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.119906718542836, 40.144580730699616]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Timberline PK-8" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.085734739209585, 40.180911331524726]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Louisville MS" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.132574542284445, 39.984124672484498]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Eldorado Sp. Fire House" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.249310122903736, 39.942661720140457]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Gold Hill ES" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.412157548021284, 40.063135099994518]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Venue": "Jamestown ES" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.387637118370847, 40.114829933198884]
+      }
+    }
+  ]
+}
