@@ -280,10 +280,6 @@ legend.onAdd = function (map) {
   // Create html to show legend text
   lg_div.innerHTML = '<h4>Legend</h4>';
   lg_div.innerHTML +=
-    '<i style="background: purple; border-radius: 20px"></i><span>Supersite 2024</span></br>';
-  lg_div.innerHTML +=
-    '<i style="background: grey; border-radius: 20px"></i><span>Site Candidate</span></br>';
-  lg_div.innerHTML +=
     '<i style="background: black; height: 5px"></i><span>Area</span></br>';
   lg_div.innerHTML +=
     '<i style="background: red; height: 2px"></i><span>Precinct</span></br>';
