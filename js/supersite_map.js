@@ -136,9 +136,9 @@ function onEachFeature(feature, layer) {
   // const tooltipContent = "<b>" + feature.properties.precinct + "</b>";
   const tooltipContent =
     '<b>PCT: ' +
-    feature.properties.precinct +
+    feature.properties.Pct +
     '<br >Area: ' +
-    feature.properties.area_short +
+    feature.properties.AreaShort +
     // "<br >Supersite: " +
     // feature.properties.mail +
     '</b>';
@@ -174,9 +174,9 @@ function highlightFeature(e) {
 
 function displayPctInfo(e) {
   document.getElementById('pct_num').innerHTML =
-    e.target.feature.properties.precinct;
+    e.target.feature.properties.Pct;
   document.getElementById('area').innerHTML =
-    e.target.feature.properties.area_long;
+    e.target.feature.properties.AreaShort;
 
   // set mail status by mountains property
   // document.getElementById("mountains").innerHTML =
