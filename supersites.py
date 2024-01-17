@@ -1,9 +1,12 @@
+'''
+# Supersite processing functions module
+- used in supersite_pct_geom.ipynb
+'''
 import pandas as pd
 
-def read_supersite_pct ():
-    supersite_input = 'data/2024_Supersite_list w Chairs & Cochairs.xlsx' # 1/13/2024
+def read_supersite_pct (ssfile, sheetname):
     return (
-        pd.read_excel(supersite_input, sheet_name='Recap SS & Precinct #s', skiprows=3)
+        pd.read_excel(ssfile, sheet_name=sheetname, skiprows=3)
         .rename(columns={
             "Supersite":"supersite", 
             "# of Reg Dems":"dems", 
@@ -29,6 +32,7 @@ def pctstr_to_list(ss) :
 
 
 # FUNCTION: Add supersite name column to pctgeo
+# ISSUE: needs modification to work as external function
 
 # def add_ss_to_pctgeo(ssdf):
 
