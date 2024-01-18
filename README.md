@@ -4,6 +4,26 @@ Manage all supersite data for a single year
 
 - Bruce Norikane, 2023
 
+## Data Sources
+
+- Supersites
+  - data/2024_Supersite_list w Chairs & Cochairs.xlsx
+  - data/ss_short_2024_alternate.geojson
+  - data/ss_short_2024.geojson
+- Precincts
+  - data/pct_area_boulder.geojson
+
+## Output files
+
+- data/ss_short_all.geojson
+
+## To Do
+
+- create supersite_venues.xlsx
+  - all known supersite venues from all years
+  - name, ssid, address, org, lat, lon, geometry, google map link
+  - populate data
+
 ## History
 
 - Start: 8/15/2023
