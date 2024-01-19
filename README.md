@@ -15,7 +15,9 @@ Manage all supersite data for a single year
 
 ## Output files
 
+- data/supersites_region_geom.geojson
 - data/ss_short_all.geojson
+- data/supersite_venues.xlsx
 
 ## To Do
 
