@@ -215,11 +215,14 @@ const areaLayer = new L.GeoJSON.AJAX('data/areas.geojson', {
 ////////////////        SUPERSITE LAYER        //////////////////////
 
 // Create Supersite layer by reading ss_info.geojson file
-const supersiteLayer = new L.GeoJSON.AJAX('data/ss_short_2024.geojson', {
-  pointToLayer: returnSSMarker,
-  pane: 'supersites',
-  // style: ssStyle,
-});
+const supersiteLayer = new L.GeoJSON.AJAX(
+  'data/supersites_location_geom_2024.geojson',
+  {
+    pointToLayer: returnSSMarker,
+    pane: 'supersites',
+    // style: ssStyle,
+  }
+);
 
 // NOTE: do not automatically add Superstes to map - avoids hover bug
 supersiteLayer.bindTooltip(function (layer) {
