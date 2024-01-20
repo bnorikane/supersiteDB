@@ -2,16 +2,41 @@
 
 Manage all supersite data for a single year
 
+Run supersite_pct_geom.ipynb to update list of 2024 supersites and precincts
+
 - Bruce Norikane, 2023
 
 ## Data Sources
 
 - Supersites
-  - data/2024_Supersite_list w Chairs & Cochairs.xlsx
-  - data/ss_short_2024_alternate.geojson
-  - data/ss_short_2024.geojson
+  - 2024 active Supersites
+    - data/2024_Supersite_list w Chairs & Cochairs.xlsx
+  - All supersites used any year
+    - data/supersite_venues_all_years.xlsx
+      - supersite name, address, org, lat, lon
 - Precincts
-  - data/pct_area_boulder.geojson
+  - list of all Boulder County Precincts
+    - data/pct_area_boulder.geojson
+
+## Code
+
+- supersite_pct_geom.ipynb
+
+  - process Judi's supersite list's embedded precinct lists
+    - create supersites_geom_2024.xlsx
+      - list of 2024 active supersites
+      - supersite name, address, location_geom, border_geom
+  - produce precinct to supersite mapping table
+  - produce supersite boundary geometry
+  - add address, url, and location geometry to
+
+- supersites.py
+
+  - module with supersite processing functions
+
+- index.html
+  - Leaflet map showing supersite locations and regions
+  - supersite_map.js
 
 ## Output files
 
@@ -20,6 +45,8 @@ Manage all supersite data for a single year
 - data/supersite_venues.xlsx
 
 ## To Do
+
+## Done
 
 - create supersite_venues.xlsx
   - all known supersite venues from all years
