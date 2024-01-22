@@ -1,6 +1,6 @@
 # SupersiteDB
 
-Manage all supersite data for a single year
+Manage all supersite data for Boulder County Dem Caucus 2024
 
 Run supersite_pct_geom.ipynb to update list of 2024 supersites and precincts
 
@@ -9,14 +9,26 @@ Run supersite_pct_geom.ipynb to update list of 2024 supersites and precincts
 ## Data Sources
 
 - Supersites
-  - 2024 active Supersites
+  - 2024 active Supersites - Judi's file
     - data/2024_Supersite_list w Chairs & Cochairs.xlsx
-  - All supersites used any year
+      - Current version - worksheet= "Draft 1-20"
+      - Status: Draft - not frozen
+  - Venues - any location that could host a Supersite
     - data/supersite_venues_all_years.xlsx
       - supersite name, address, org, lat, lon
+      - version: 1/20/2024 - complete and includes 2020 and 2024 and some possible alternates
 - Precincts
-  - list of all Boulder County Precincts
-    - data/pct_area_boulder.geojson
+  - data/pct_area_boulder.geojson
+    - list of all Boulder County Precincts after 2022 reprecincting
+    - pct, precinctname, CD, HD, SD, border_geom
+
+## Output files
+
+- data/supersites_geom_2024.xlsx
+- data/supersites_location_geom_2024.geojson
+- data/supersites_region_geom.geojson
+- data/supersite_areas_DRAFT.xlsx
+- data/venues_all_years_fixed.xlsx
 
 ## Code
 
@@ -37,12 +49,6 @@ Run supersite_pct_geom.ipynb to update list of 2024 supersites and precincts
 - index.html
   - Leaflet map showing supersite locations and regions
   - supersite_map.js
-
-## Output files
-
-- data/supersites_region_geom.geojson
-- data/ss_short_all.geojson
-- data/supersite_venues.xlsx
 
 ## To Do
 
