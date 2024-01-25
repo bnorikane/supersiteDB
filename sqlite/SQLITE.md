@@ -41,9 +41,10 @@ Move all supersite data into a sqlite database
 
 ### To Do
 
-- Create database
-- create tables
+- add data to tables
 
 ### Done
 
 - Create sqlite branch in supersiteDB repo
+- Create database
+- create tables

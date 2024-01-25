@@ -12,27 +12,20 @@ c = conn.cursor()
 
 # CREATE TABLES
 
-precincts_table = '''CREATE TABLE precincts (
-            pct TEXT,
+precincts_table = '''CREATE TABLE IF NOT EXISTS  precincts (
+            pct INTEGER PRIMARY KEY,
             precinctname TEXT,
+            cd TEXT,
+            sd TEXT,
+            hd TEXT,
+            area_short TEXT,
+            ss24code TEXT, 
             geometry TEXT
             ); '''
 
 c.execute(precincts_table)
 
-pct_area_table = '''CREATE TABLE pct_area (
-            pct TEXT,
-            precinctname TEXT,
-            area_short TEXT,
-            cd TEXT,
-            sd TEXT,
-            hd TEXT,
-            geometry TEXT
-            ); '''
-
-c.execute(pct_area_table)
-
-venues_table = '''CREATE TABLE venues (
+venues_table = '''CREATE TABLE IF NOT EXISTS  venues (
             name TEXT,
             venue_code TEXT,
             address TEXT,
@@ -40,25 +33,15 @@ venues_table = '''CREATE TABLE venues (
             website TEXT,
             gmap_name TEXT,
             gmap_url TEXT,
-            lat FLOAT,
-            lon FLOAT,
+            lat REAL,
+            lon REAL,
             location_geom TEXT
+            ss24 INTEGER;
             ); '''
 
 c.execute(venues_table)
 
-pct_ss_table = '''CREATE TABLE pct_ss (
-            pct TEXT,
-            precinctname TEXT,
-            area_short TEXT,
-            cd TEXT,
-            sd TEXT,
-            hd TEXT,
-            geometry TEXT,
-            ss24_code
-            ); '''
 
-c.execute(pct_ss_table)
 
 # # INSERT VALUES INTO TABLE
 # people = [
