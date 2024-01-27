@@ -1,6 +1,7 @@
 # Create supersiteDB - run once to create DB 
 
 import sqlite3
+import pandas as pd
 
 #############      CONNECT to a db       #################
 conn = sqlite3.connect("supersite.db")
@@ -14,36 +15,35 @@ c = conn.cursor()
 
 precincts_table = '''CREATE TABLE IF NOT EXISTS  precincts (
             pct INTEGER PRIMARY KEY,
-            precinctname TEXT,
+            precinctname TEXT NOT NULL,
             cd TEXT,
             sd TEXT,
             hd TEXT,
             area_short TEXT,
-            ss24code TEXT, 
+            ss24_id INTEGER, 
             geometry TEXT
             ); '''
 
 c.execute(precincts_table)
 
 venues_table = '''CREATE TABLE IF NOT EXISTS  venues (
-            name TEXT,
-            venue_code TEXT,
+            venue_id INTEGER PRIMARY KEY,
+            venue TEXT NOT NULL,
+            venue_code,
             address TEXT,
             org TEXT,
             website TEXT,
-            gmap_name TEXT,
             gmap_url TEXT,
+            gmap_name TEXT,
             lat REAL,
             lon REAL,
             location_geom TEXT
-            ss24 INTEGER;
             ); '''
 
 c.execute(venues_table)
 
 
-
-# # INSERT VALUES INTO TABLE
+# Insert values into tables
 # people = [
 #          ('Billy', 'Bob', 23),
 #          ('Sally', 'Field', 76),
