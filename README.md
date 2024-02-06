@@ -47,8 +47,13 @@ Run supersite_pct_geom.ipynb to update list of 2024 supersites and precincts
   - module with supersite processing functions
 
 - index.html
+
   - Leaflet map showing supersite locations and regions
   - supersite_map.js
+
+- supersite_area_sdhd.ipynb
+  - create spreadsheets for Supersite Chairs and Candidates
+  - create supersite*area_HD_SD_DRAFT*....xlsx
 
 ## To Do
 
