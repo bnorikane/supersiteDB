@@ -10,7 +10,7 @@ def read_supersite_pct (ssfile, sheetname):
         .rename(columns={
             "Supersite":"supersite", 
             "# of Reg Dems":"dems", 
-            "Forecast of  Attendees":"attendee_forecast", 
+            "Fcst  Turn Out":"attendee_forecast", 
             "# of Pct's":"total_precincts" 
             })
         .assign(pctlist = pctstr_to_list)
