@@ -24,9 +24,15 @@ def pctstr_to_list(ss) :
 
     # transform each string in the list to a list of precinct numbers
     pctlist = ss["Pct #'s"].str.rstrip(',').str.split(',')
+    # pctlist = ss["Pct #'s"].str.strip(',').str.split(',')
 
     # add leading zeros to single-digit precincts
+
     pctlist = [ [p.zfill(3) for p in pl] for pl in pctlist]
+
+    # remove spaces from pct strings
+    pctlist = [ [p.strip(' ') for p in pl] for pl in pctlist]
+
     
     return pctlist   
 
